@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position</title>
+        <style>
+.box-1,.box-2,.box-3,.box-4 
+{
+border:2px solid black;
+height:70px;
+width:100%;
+}
+.box-1{
+    background-color: green;
+}
+.box-2{
+    background-color:gray ;
+    
+}
+.parent
+{
+    position:relative;
+}
+.box-3{
+    background-color: yellow;
+    position: absolute;
+    left:50px;
+    top:200px;
+ 
+}
+.box-4{
+    background-color:violet ;
+}
+        </style>
+    </head>
+    <div>
+        <div class="box-1">This is box-A</div>
+        <!-- <div class="parent"> -->
+        <div class="box-2">This is box-B</div>
+        <div class="box-3">This is box-C</div>
+        <div class="box-4">This is box-D</div>
+        <!-- </div> -->
+    </body>
+</html>
